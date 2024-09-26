@@ -1,38 +1,42 @@
-#include <atomic>
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-const string alfabet_m="aąbcćdeęfghijklłmnńoópqrsśtuvwxyzźż";
-const string alfabet_w="AĄBCĆDEĘFGHIJKLŁMNŃOÓPQRSŚTUVWXYZŹŻ";
+const string alfabet_m = "aąbcćdeęfghijklłmnńoópqrsśtuvwxyzźż";
+const string alfabet_w = "AĄBCĆDEĘFGHIJKLŁMNŃOÓPQRSŚTUVWXYZŹŻ";
 
-char Cezar_PL(char znak, int klucz)
+string Cezar_PL(string s, int klucz)
 {
-    int i=alfabet_m.find(znak);
-    if (i >= 0 && i < 35) {
-        i = (i + klucz) % 35;
-        return alfabet_m[i];
-    }
-    i = alfabet_w.find(znak);
-    if (i >= 0 && i < 35) {
-        i = (i + klucz) % 35;
-        return alfabet_w[i];
-    }
-    return znak;
-}
+    string szyfrogram = "";
+    char litera;
+    int nowy_indeks;
 
-string Cezar(string s, int klucz)
-{
-    string szyfrogram;
     for (int i = 0; i < s.length(); i++)
     {
-        szyfrogram += Cezar_PL(s[i], klucz);
+        litera = s[i];
+
+        if (alfabet_m.find(litera) != string::npos)
+        {
+            nowy_indeks = (alfabet_m.find(litera) + klucz) % alfabet_m.length();
+            szyfrogram += alfabet_m[nowy_indeks];
+        }
+        else if (alfabet_w.find(litera) != string::npos)
+        {
+            nowy_indeks = (alfabet_w.find(litera) + klucz) % alfabet_w.length();
+            szyfrogram += alfabet_w[nowy_indeks];
+        }
+        else
+        {
+            szyfrogram += litera;
+        }
     }
+
     return szyfrogram;
 }
+
 int main()
 {
-    cout << Cezar("test", 3);
+    cout << Cezar_PL("test", 3) << endl;
     return 0;
 }

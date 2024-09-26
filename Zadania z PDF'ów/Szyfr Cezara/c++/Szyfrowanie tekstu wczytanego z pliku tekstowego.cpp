@@ -7,35 +7,36 @@ using namespace std;
 string Cezar(string s, int klucz)
 {
     string szyfrogram = "";
-    int kod;
-    int i;
-    for (i = 0; i < s.size(); i++)
-    {
-        if (toupper(s[i]) >= 'A' && toupper(s[i]) <= 'Z')
-        {
-            kod = s[i] + klucz;
-            if ((s[i] <= 'Z' && kod > 'Z') || (s[i] >= 'a' && kod > 'z')) kod = kod - 26;
-            szyfrogram += char(kod);
+    for (int i = 0; i < s.length(); i++) {
+        if (s[i] >= 'A' && s[i] <= 'Z') {
+            szyfrogram += (s[i] - 'A' + klucz) % 26 + 'A';
+        } else if (s[i] >= 'a' && s[i] <= 'z') {
+            szyfrogram += (s[i] - 'a' + klucz) % 26 + 'a';
         }
-        else szyfrogram = szyfrogram + s[i];
     }
     return szyfrogram;
 }
 int main()
 {
-    ifstream wejscie("dane.txt");
-    ofstream wyjscie("wynik.txt");
+    ifstream wejscie("C:/dane.txt");
+    ofstream wyjscie("C:/wynik.txt");
     string s;
     int klucz;
+
     cout << "Podaj klucz: ";
     cin >> klucz;
-    while (!wejscie.eof())
+
+    while (getline(wejscie, s))
     {
-        getline(wejscie, s);
         wyjscie << Cezar(s, klucz) << endl;
     }
+
     wejscie.close();
     wyjscie.close();
+
     cout << "Plik zostal utworzony.";
     return 0;
 }
+
+
+
