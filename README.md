@@ -21,5 +21,10 @@ TBA
 co krok z przygotowania do matury kartkówka 15 min 
 co 3-4 kroki klasówka na godzinę 
 
+kartkówki 
+
+1 schemat blokowy / lista kroków 
+2 programy w c++ albo python
+
 # Źródła
 **https://eduinf.waw.pl/inf/index.php**
