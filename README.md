@@ -12,13 +12,13 @@ Sprawdzian (1 Godzina) co 3-4 podkroki.
 # Schematy
 
 **Sprawdzian:**
-2 Algorytmy (Lista kroków lub schemat blokowy)
-2 Różne programy w C++
-2 Różne programy w Python
+- 2 Algorytmy (Lista kroków lub schemat blokowy)
+- 2 Różne programy w C++
+- 2 Różne programy w Python
 
 **Kartkówka:**
-1 schemat blokowy / lista kroków 
-2 programy w c++ albo python
+- 1 schemat blokowy / lista kroków 
+- 2 programy w c++ albo python
 
 # Źródła
 **https://eduinf.waw.pl/inf/index.php**
