@@ -10,8 +10,9 @@ wiersz = int(input("Podaj numer wiersza, który chcesz usunąć (1,4): "))
 wiersz -= 1
 
 tablica.pop(wiersz)
+tablica.append([0, 0, 0, 0, 0])
 
-for i in range(3):
-    for j in range(4):
+for i in range(4):
+    for j in range(5):
         print(tablica[i][j], end=" ")
     print()
