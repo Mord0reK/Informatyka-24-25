@@ -11,7 +11,7 @@ def rysuj_a():
     #   * * * * * 
     #    * * * * 
     #     * * * 
-    #      * 
+    #       *
     n = 5  # liczba wierszy (górna część)
     for i in range(n):
         print(' ' * (n - i - 1) + '* ' * (i + 1))
