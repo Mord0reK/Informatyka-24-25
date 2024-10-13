@@ -3,13 +3,10 @@
 
 liczba = int(input("Podaj liczbę: "))
 
-namjmniejsza = liczba
+liczby = []
 
 while liczba != 0:
-    if liczba < 0:
-        print("Podano liczbę ujemną")
+    liczby.append(liczba)
     liczba = int(input("Podaj liczbę: "))
-    if liczba < namjmniejsza and liczba != 0:
-        namjmniejsza = liczba
 
-print("Najmniejsza liczba to: ", namjmniejsza)
+print("Najmniejsza liczba: ", min(liczby))
