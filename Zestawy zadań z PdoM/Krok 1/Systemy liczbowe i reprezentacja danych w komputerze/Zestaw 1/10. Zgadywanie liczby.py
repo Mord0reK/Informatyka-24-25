@@ -7,7 +7,6 @@ import random
 
 U = 0
 liczbaprob = 0
-proby = [0] * 100
 
 L = random.randint(0,100)
 
