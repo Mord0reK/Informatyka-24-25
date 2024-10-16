@@ -3,34 +3,25 @@ print("Wprowadź noty za skok lub wpisz 'spalony' dla skoków nieważnych: ")
 
 liczba_spalonych = 0
 suma = 0
-noty_wazne = 0
+noty = []  # Lista do przechowywania ważnych not
 
 for i in range(5):
-    nota = input()
+    nota = input(f"Nota za skok {i+1}: ")
 
     if nota.lower() == "spalony":
         liczba_spalonych += 1
     else:
         try:
             nota = float(nota)
-            if noty_wazne == 0:
-                mini = nota
-                maks = nota
-            else:
-                if nota < mini:
-                    mini = nota
-                if nota > maks:
-                    maks = nota
-            suma += nota
-            noty_wazne += 1
+            noty.append(nota)
         except ValueError:
             print("Nieprawidłowa wartość, spróbuj ponownie.")
-            i -= 1  # Powtórz pytanie dla tej samej noty
+            i -= 1
 
-if noty_wazne > 0:
-    suma -= (mini + maks)  # Odejmij najmniejszą i największą notę
-    print("\nNoty skrajne : ", mini, " i ", maks)
-    print("Łączna nota : ", suma)
+if len(noty) > 0:
+    suma = suma - (min(noty) + max(noty))
+    print("\nNoty skrajne: ", min(noty), " i ", max(noty))
+    print("Łączna nota: ", suma)
 else:
     print("Brak ważnych skoków")
 
