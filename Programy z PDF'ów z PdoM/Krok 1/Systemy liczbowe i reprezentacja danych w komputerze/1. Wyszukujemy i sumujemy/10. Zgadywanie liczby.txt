@@ -1,0 +1,23 @@
+Oto lista kroków działania programu:
+
+1. **Inicjalizacja zmiennych:**
+   - Zmienna `U` jest ustawiona na 0, będzie przechowywać liczby wprowadzane przez użytkownika.
+   - Zmienna `liczbaprob` jest ustawiona na 0 i będzie zliczać liczbę prób użytkownika.
+   - Lista `proby` o rozmiarze 100, wypełniona zerami, jest utworzona, ale nie jest używana w programie (można ją usunąć).
+
+2. **Losowanie liczby:**
+   - Program losuje liczbę `L` z przedziału od 0 do 100, która będzie celem gry (użytkownik musi ją zgadnąć).
+
+3. **Pętla zgadywania:**
+   - Program wchodzi w nieskończoną pętlę, w której użytkownik jest proszony o podanie liczby (`U`).
+
+4. **Sprawdzenie liczby:**
+   - Jeśli podana liczba `U` jest mniejsza od wylosowanej liczby `L`, program wyświetla komunikat "Za mała" i zwiększa licznik prób (`liczbaprob`) o 1.
+   - Jeśli liczba `U` jest większa od `L`, program wyświetla komunikat "Za duża" i również zwiększa licznik prób.
+
+5. **Zgadnięcie liczby:**
+   - Jeśli podana liczba `U` jest równa wylosowanej liczbie `L`, program wyświetla komunikat "Brawo!" oraz liczbę prób, po czym przerywa pętlę (`break`).
+
+6. **Zakończenie programu:**
+   - Program kończy działanie po odgadnięciu liczby.
+

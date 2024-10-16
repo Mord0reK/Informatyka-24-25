@@ -1,0 +1,28 @@
+a) Liczby podzielne przez 3:
+Inicjalizacja zmiennych:
+Stwórz pustą listę liczby_3, która będzie przechowywać liczby podzielne przez 3.
+Zainicjuj zmienną n na 1, aby zacząć od pierwszej liczby.
+Pętla wyszukiwania liczb podzielnych przez 3:
+W pętli sprawdzaj kolejne liczby naturalne, czy są podzielne przez 3 (użyj operatora modulo %).
+Jeśli liczba jest podzielna przez 3, dodaj ją do listy liczby_3.
+Zatrzymaj pętlę, gdy lista liczby_3 będzie zawierała 100 liczb.
+Wypisanie wyniku:
+Wypisz zawartość listy liczby_3.
+b) Liczby podzielne przez 7:
+Inicjalizacja zmiennych:
+Stwórz pustą listę liczby_7, która będzie przechowywać liczby podzielne przez 7.
+Pętla wyszukiwania liczb podzielnych przez 7:
+Analogicznie do poprzedniej pętli, sprawdzaj kolejne liczby naturalne, czy są podzielne przez 7.
+Dodawaj liczby podzielne przez 7 do listy liczby_7.
+Zatrzymaj pętlę, gdy lista liczby_7 będzie zawierała 100 liczb.
+Wypisanie wyniku:
+Wypisz zawartość listy liczby_7.
+c) Liczby podzielne przez 3 i 7 (21):
+Inicjalizacja zmiennych:
+Stwórz pustą listę liczby_3_i_7, która będzie przechowywać liczby podzielne przez 3 i 7 (czyli przez 21).
+Pętla wyszukiwania liczb podzielnych przez 21:
+Sprawdzaj kolejne liczby naturalne, czy są podzielne przez 21.
+Dodawaj te liczby do listy liczby_3_i_7.
+Zatrzymaj pętlę, gdy lista liczby_3_i_7 będzie zawierała 100 liczb.
+Wypisanie wyniku:
+Wypisz zawartość listy liczby_3_i_7.

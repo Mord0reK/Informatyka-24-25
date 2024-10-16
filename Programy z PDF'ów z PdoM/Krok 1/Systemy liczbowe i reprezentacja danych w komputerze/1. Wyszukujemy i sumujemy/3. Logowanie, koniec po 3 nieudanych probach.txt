@@ -1,0 +1,12 @@
+Wczytaj login i hasło od użytkownika:
+Użytkownik podaje swój login i hasło.
+Zdefiniuj poprawne dane logowania:
+Zapisz poprawny login i hasło w zmiennych login_baza i haslo_baza.
+Inicjalizuj licznik prób logowania:
+Ustaw licznik prób na 1.
+Pętla logowania:
+Sprawdzaj dane logowania w pętli:
+Jeśli login i hasło są poprawne, wyświetl komunikat o pomyślnym logowaniu i zakończ program.
+Jeśli dane są niepoprawne, wyświetl błąd, wczytaj ponownie login i hasło, zwiększ licznik prób.
+Zakończenie po trzech nieudanych próbach:
+Po trzech nieudanych próbach wypisz komunikat o przekroczeniu limitu prób i zakończ program.

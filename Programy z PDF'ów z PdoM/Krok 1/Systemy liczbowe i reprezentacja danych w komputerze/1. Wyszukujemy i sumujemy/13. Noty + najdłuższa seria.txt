@@ -1,0 +1,52 @@
+Oto lista kroków, które program wykonuje:
+
+### Wprowadzanie i przetwarzanie not skoków:
+
+1. **Wyświetlenie komunikatu dla użytkownika:**
+   - Program wyświetla instrukcję, aby użytkownik wpisał noty za skoki lub wpisał "spalony" dla skoków nieważnych.
+
+2. **Inicjalizacja zmiennych:**
+   - `liczba_spalonych = 0` – licznik spalonych (nieważnych) skoków.
+   - `suma = 0` – suma ważnych not za skoki.
+   - `noty_wazne = 0` – licznik ważnych (poprawnych) not.
+   - `noty = []` – lista, która przechowuje ważne noty.
+   - `mini` i `maks` – zmienne używane do śledzenia najmniejszej i największej ważnej noty.
+
+3. **Pętla wprowadzania not (5 iteracji):**
+   - W pętli for, 5 razy użytkownik wprowadza wartość noty za skok.
+   - W każdej iteracji program:
+     - Pyta użytkownika o notę za skok (jako tekst).
+     - Sprawdza, czy użytkownik wpisał "spalony":
+       - Jeśli tak, licznik `liczba_spalonych` zostaje zwiększony.
+     - Jeśli wpisana wartość nie jest "spalony":
+       - Program próbuje przekonwertować wpis na liczbę zmiennoprzecinkową (float). W przypadku błędu (np. wpisanie nieprawidłowego tekstu), program prosi o ponowne wprowadzenie noty.
+       - Jeśli wpis jest poprawny:
+         - Zapisuje notę do listy `noty`.
+         - Zwiększa liczbę ważnych not (`noty_wazne`).
+         - Aktualizuje zmienne `mini` i `maks`, które przechowują odpowiednio najmniejszą i największą notę.
+         - Dodaje wartość noty do zmiennej `suma`.
+
+4. **Odejmowanie skrajnych not:**
+   - Po zakończeniu pętli, jeśli istnieją ważne noty:
+     - Program odejmuje z sumy najmniejszą (`mini`) i największą (`maks`) notę, wyliczając ostateczną łączną notę.
+     - Wyświetla skrajne noty oraz ostateczną sumę.
+   - Jeśli nie było ważnych not, program informuje o tym użytkownika.
+
+5. **Wyświetlenie liczby skoków spalonych:**
+   - Program wyświetla liczbę spalonych skoków.
+
+### Znalezienie najdłuższej serii rosnących skoków:
+
+6. **Inicjalizacja zmiennych dla serii:**
+   - `najdluzsza_seria = 1` – przechowuje długość najdłuższej serii rosnących not.
+   - `aktualna_seria = 1` – przechowuje długość bieżącej serii rosnących not.
+
+7. **Pętla do wyszukiwania rosnącej serii:**
+   - Program przechodzi przez listę ważnych not (lista `noty`) zaczynając od drugiego elementu.
+   - W każdej iteracji sprawdza, czy bieżąca nota jest większa od poprzedniej:
+     - Jeśli tak, zwiększa bieżącą serię (`aktualna_seria`).
+     - Sprawdza, czy bieżąca seria jest dłuższa niż najdłuższa zapisana seria i aktualizuje `najdluzsza_seria`, jeśli tak.
+     - Jeśli bieżąca nota jest mniejsza lub równa poprzedniej, resetuje bieżącą serię do 1.
+
+8. **Wyświetlenie wyniku dla najdłuższej serii rosnących skoków:**
+   - Po zakończeniu pętli, program wyświetla długość najdłuższej serii rosnących skoków.

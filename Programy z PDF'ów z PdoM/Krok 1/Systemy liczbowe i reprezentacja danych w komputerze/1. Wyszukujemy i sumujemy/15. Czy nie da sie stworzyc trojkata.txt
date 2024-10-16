@@ -1,0 +1,11 @@
+1. **Wczytaj liczby od użytkownika:**
+   - Użytkownik podaje liczbę elementów `n`.
+   - W pętli wprowadza kolejne liczby, które zostają zapisane do listy `nums`.
+
+2. **Sprawdź każdą trójkę liczb:**
+   - Dla każdej kombinacji trzech liczb z listy, program sprawdza, czy nie można z nich zbudować trójkąta, zgodnie z nierównościami trójkąta:
+     - Jeśli `x + y <= z` lub inne kombinacje, zwróć wynik, że trójkąta nie da się zbudować.
+
+3. **Zakończenie programu:**
+   - Jeśli znajdziesz taką trójkę, wypisz, że trójkąta nie można zbudować.
+   - Jeśli żadna trójka nie spełnia tego warunku, wypisz, że wszystkie trójki mogą utworzyć trójkąt.

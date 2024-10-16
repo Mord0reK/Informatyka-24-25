@@ -1,0 +1,11 @@
+Inicjalizacja listy:
+Utwórz pustą listę liczby.
+Wczytywanie liczb:
+W pętli wczytaj 10 liczb od użytkownika:
+Dodaj każdą wprowadzaną liczbę do listy liczby.
+Sortowanie liczb:
+Posortuj listę liczby w porządku malejącym.
+Obliczenie pola prostokąta:
+Oblicz pole prostokąta jako iloczyn dwóch największych boków (liczby[0] * liczby[1]).
+Wyświetlenie wyniku:
+Wyświetl największe pole prostokąta.

@@ -1,0 +1,6 @@
+Wczytaj liczbę od użytkownika:
+Użytkownik podaje dodatnią liczbę naturalną liczba.
+Wypisz 10 kolejnych wielokrotności:
+W pętli od 2 do 11 (włącznie), program oblicza i wypisuje wielokrotności liczby (liczba * i).
+Zakończenie programu:
+Program wypisuje 10 wielokrotności i kończy działanie.

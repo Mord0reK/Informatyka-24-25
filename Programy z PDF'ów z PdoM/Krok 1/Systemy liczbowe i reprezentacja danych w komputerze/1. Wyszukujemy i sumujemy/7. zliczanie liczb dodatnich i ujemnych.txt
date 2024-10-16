@@ -1,0 +1,15 @@
+
+Inicjalizacja zmiennych:
+Utwórz pustą listę liczby.
+Ustaw dodatnie na 0.
+Ustaw ujemne na 0.
+Wczytywanie liczb:
+W pętli, wczytuj liczby od użytkownika:
+Jeśli wprowadzona liczba to 0, zakończ wczytywanie.
+Dodaj wprowadzone liczby do listy liczby.
+Zliczanie liczb:
+Iteruj przez listę liczby:
+Jeśli liczba jest ujemna, zwiększ licznik ujemne.
+Jeśli liczba jest dodatnia, zwiększ licznik dodatnie.
+Wyświetlenie wyników:
+Wyświetl liczbę wprowadzonych liczb ujemnych i dodatnich.

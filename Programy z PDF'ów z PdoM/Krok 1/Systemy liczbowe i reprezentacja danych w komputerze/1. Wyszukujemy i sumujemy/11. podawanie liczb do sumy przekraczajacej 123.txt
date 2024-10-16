@@ -1,0 +1,18 @@
+Oto lista kroków dla programu:
+
+Inicjalizacja zmiennych:
+Utwórz zmienną suma i ustaw ją na 0, aby przechowywała bieżącą sumę liczb wprowadzonych przez użytkownika.
+Utwórz zmienną liczba_skladnikow i ustaw ją na 0, aby zliczać liczbę składników sumy.
+Pętla wprowadzania liczb:
+Wejdź w pętlę, która będzie prosić użytkownika o wprowadzenie liczby całkowitej.
+Sprawdź, czy liczba jest jedno- lub dwucyfrowa (należy do przedziału od -99 do 99, z wykluczeniem zerocyfrowych).
+Dodawanie do sumy:
+Jeśli liczba spełnia warunki (jest jedno- lub dwucyfrowa), dodaj ją do zmiennej suma.
+Zwiększ licznik liczba_skladnikow o 1.
+Sprawdzanie wartości sumy:
+Sprawdź, czy bieżąca suma przekroczyła wartość 123.
+Jeśli tak, wyjdź z pętli.
+Wyświetlenie wyniku:
+Po przekroczeniu sumy 123 wyświetl liczbę składników (liczba_skladnikow) oraz ostateczną sumę (suma).
+Zakończenie programu:
+Program kończy działanie po przekroczeniu sumy 123 i wyświetleniu wyniku.
