@@ -1,0 +1,11 @@
+	1.	Wczytaj login i hasło od użytkownika.
+	2.	Zdefiniuj poprawny login i hasło.
+	3.	Ustaw licznik prób logowania na 1.
+	4.	Wykonuj pętlę do trzech prób:
+	•	Jeśli wprowadzone login i hasło są zgodne z danymi w bazie:
+	•	Wyświetl komunikat o pomyślnym logowaniu i zakończ program.
+	•	Jeśli dane są błędne:
+	•	Wyświetl komunikat o błędnych danych.
+	•	Wczytaj ponownie login i hasło.
+	•	Zwiększ licznik prób o 1.
+	5.	Po trzech nieudanych próbach wyświetl komunikat o przekroczeniu limitu prób logowania.
