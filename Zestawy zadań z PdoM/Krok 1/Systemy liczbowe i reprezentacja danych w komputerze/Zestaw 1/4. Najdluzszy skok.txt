@@ -1,0 +1,17 @@
+	1.	Inicjalizacja zmiennych:
+	•	Utwórz pustą listę skoki do przechowywania długości skoków.
+	•	Ustaw licznik skoków spalonych licznik_spalonych na 0.
+	2.	Wczytywanie danych:
+	•	Rozpocznij nieskończoną pętlę while True.
+	•	Poproś użytkownika o podanie długości skoku (informując, że ‘spalony’ oznacza skok spalony, a ‘0’ kończy wprowadzanie):
+	•	Jeśli użytkownik wprowadzi ‘0’, przerwij pętlę.
+	•	Jeśli użytkownik wprowadzi ‘spalony’, zwiększ licznik_spalonych o 1.
+	•	W przeciwnym razie:
+	•	Spróbuj dodać wprowadzoną długość skoku do listy skoki (przekonwertowaną na float).
+	•	Jeśli wystąpi błąd konwersji (np. nieprawidłowa wartość), wyświetl komunikat o błędzie i poproś o ponowne wprowadzenie.
+	3.	Analiza wyników:
+	•	Sprawdź, czy lista skoki zawiera jakiekolwiek ważne skoki:
+	•	Jeśli tak, znajdź i wypisz najdłuższy skok (używając max()).
+	•	Jeśli lista jest pusta, wypisz komunikat “Brak ważnych skoków.”
+	4.	Wyświetlenie liczby skoków nieważnych:
+	•	Wypisz liczbę skoków spalonych (nieważnych) z licznik_spalonych.
