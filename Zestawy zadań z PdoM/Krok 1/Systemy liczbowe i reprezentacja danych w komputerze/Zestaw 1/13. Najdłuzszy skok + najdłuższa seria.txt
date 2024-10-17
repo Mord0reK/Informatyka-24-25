@@ -1,0 +1,7 @@
+	1.	Utwórz pustą listę do przechowywania skoków i licznik skoków spalonych.
+	2.	Wczytuj dane od użytkownika:
+	•	Jeśli wpisano ‘0’, zakończ wprowadzanie.
+	•	Jeśli wpisano ‘spalony’, zwiększ licznik skoków spalonych.
+	•	W przeciwnym razie, spróbuj dodać długość skoku do listy.
+	3.	Wyświetl najdłuższy skok (jeśli istnieje) i liczbę skoków spalonych.
+	4.	Znajdź najdłuższą serię rosnących skoków i wyświetl jej długość.
