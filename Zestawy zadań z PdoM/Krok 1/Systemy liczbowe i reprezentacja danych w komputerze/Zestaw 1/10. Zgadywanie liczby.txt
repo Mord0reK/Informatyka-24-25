@@ -1,0 +1,7 @@
+	1.	Wylosuj liczbę z przedziału 0-100.
+	2.	Ustaw licznik prób na 0.
+	3.	Powtarzaj:
+	•	Poproś użytkownika o podanie liczby.
+	•	Jeśli podana liczba jest mniejsza od wylosowanej, wyświetl “Za mała” i zwiększ licznik prób.
+	•	Jeśli jest większa, wyświetl “Za duża” i zwiększ licznik prób.
+	•	Jeśli jest równa wylosowanej, wyświetl “Brawo!” i liczbę prób, a następnie zakończ działanie programu.
