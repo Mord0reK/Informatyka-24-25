@@ -1,5 +1,5 @@
 def palindrom(slowo):
-    slowo = slowo.lower()
+    slowo = slowo.upper()
     return slowo == slowo[::-1]
 
 zdanie = str(input("Podaj zdanie: "))
