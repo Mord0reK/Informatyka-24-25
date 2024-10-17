@@ -1,0 +1,5 @@
+	1.	Wczytaj liczbę całkowitą od użytkownika.
+	2.	Utwórz pustą listę do przechowywania wprowadzonych liczb.
+	3.	Dodawaj liczby do listy, dopóki użytkownik nie wprowadzi zera.
+	4.	Znajdź najmniejszą liczbę na liście.
+	5.	Wyświetl najmniejszą liczbę.

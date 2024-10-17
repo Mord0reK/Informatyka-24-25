@@ -1,0 +1,9 @@
+
+Wczytanie liczby n:
+Użytkownik wprowadza wartość n, która jest liczbą całkowitą.
+Inicjalizacja zmiennej suma:
+Ustaw suma na 0, aby przechowywać sumę liczb.
+Obliczanie sumy:
+W pętli od 0 do n (włącznie), dodawaj każdą liczbę i do zmiennej suma.
+Wyświetlenie wyniku:
+Wypisz wynik, informując o sumie n kolejnych liczb naturalnych.

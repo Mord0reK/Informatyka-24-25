@@ -1,0 +1,11 @@
+Wczytanie długości boków:
+Użytkownik wprowadza długości trzech boków: a, b i c (wszystkie jako liczby zmiennoprzecinkowe).
+Porównanie boków:
+Sprawdź, czy bok b jest większy od a:
+Jeśli tak, zamień wartości a i b.
+Sprawdź, czy bok c jest większy od a:
+Jeśli tak, zamień wartości a i c.
+Sprawdzenie nierówności trójkąta:
+Sprawdź, czy suma boków b i c jest większa od boku a:
+Jeśli tak, wypisz "Tak" (boki mogą utworzyć trójkąt).
+W przeciwnym razie, wypisz "Nie" (boki nie mogą utworzyć trójkąt).

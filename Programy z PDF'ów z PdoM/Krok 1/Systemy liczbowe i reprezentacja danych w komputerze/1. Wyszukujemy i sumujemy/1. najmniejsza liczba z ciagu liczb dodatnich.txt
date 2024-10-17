@@ -1,0 +1,15 @@
+Pobranie pierwszej liczby:
+Program prosi użytkownika o podanie liczby całkowitej.
+Użytkownik wprowadza liczbę z klawiatury i przypisuje ją do zmiennej liczba.
+Inicjalizacja listy liczb:
+Tworzona jest pusta lista liczby, która będzie przechowywać wszystkie wprowadzone liczby oprócz zera.
+Pętla wprowadzania danych:
+Program wchodzi w pętlę, która działa, dopóki użytkownik nie wprowadzi liczby 0.
+Jeśli liczba różna od 0 zostanie podana, zostaje dodana do listy liczby.
+Następnie program ponownie prosi użytkownika o podanie kolejnej liczby.
+Zakończenie wprowadzania:
+Wprowadzenie liczby 0 kończy pętlę, program przestaje przyjmować dane.
+Wyznaczanie najmniejszej liczby:
+Program używa funkcji min(), aby znaleźć najmniejszą wartość z listy liczby.
+Wypisanie wyniku:
+Program wyświetla najmniejszą liczbę z wprowadzonego ciągu.

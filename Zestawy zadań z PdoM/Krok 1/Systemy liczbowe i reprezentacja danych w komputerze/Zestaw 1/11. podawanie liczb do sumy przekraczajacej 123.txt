@@ -1,0 +1,7 @@
+	1.	Ustaw sumę na 0 i utwórz pustą listę do przechowywania liczb.
+	2.	Powtarzaj, dopóki suma nie przekroczy 123:
+	•	Wczytaj liczbę od użytkownika.
+	•	Jeśli liczba jest jedno- lub dwucyfrowa, dodaj ją do listy.
+	•	Dodaj liczbę do sumy, jeśli jest dwucyfrowa (od 10 do 99).
+	•	Jeśli nie jest dwucyfrowa, wyświetl komunikat o błędzie i kontynuuj.
+	3.	Gdy suma przekroczy 123, wyświetl liczbę składników sumy oraz wartość sumy.

@@ -1,0 +1,10 @@
+
+Wczytanie słowa:
+Użytkownik wprowadza słowo, które jest zapisywane w zmiennej slowo.
+Inicjalizacja zmiennej ile:
+Ustaw ile na 0, aby zliczać litery w słowie.
+Zliczanie liter:
+W pętli przechodź przez każdy indeks i w słowie (od 0 do długości słowa):
+Zwiększ ile o 1 dla każdej litery.
+Wyświetlenie wyniku:
+Wypisz informację o liczbie liter w słowie slowo.

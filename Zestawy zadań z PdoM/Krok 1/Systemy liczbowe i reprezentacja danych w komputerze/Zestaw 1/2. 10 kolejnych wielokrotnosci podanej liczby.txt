@@ -1,0 +1,4 @@
+	1.	Wczytaj dodatnią liczbę naturalną od użytkownika.
+	2.	Powtarzaj dla kolejnych wartości od 2 do 11:
+	•	Oblicz iloczyn podanej liczby i bieżącej wartości.
+	•	Wypisz wynik.

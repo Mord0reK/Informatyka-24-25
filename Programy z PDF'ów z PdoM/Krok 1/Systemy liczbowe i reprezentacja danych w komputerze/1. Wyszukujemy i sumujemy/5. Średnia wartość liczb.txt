@@ -1,0 +1,17 @@
+1. **Inicjalizacja:**
+   - Utwórz pustą listę `liczby`.
+
+2. **Wczytywanie wartości:**
+   - W pętli, wczytuj wartości od użytkownika:
+     - Dodaj każdą wartość (po konwersji na int) do listy `liczby`, aż użytkownik wpisze "koniec".
+
+3. **Sortowanie listy:**
+   - Posortuj listę `liczby`.
+
+4. **Usunięcie skrajnych wartości:**
+   - Usuń najmniejszą wartość (pierwszy element) z listy.
+   - Usuń największą wartość (ostatni element) z listy.
+
+5. **Obliczenie i wyświetlenie średniej:**
+   - Oblicz średnią wartość jako sumę pozostałych liczb podzieloną przez ich ilość.
+   - Wyświetl średnią.

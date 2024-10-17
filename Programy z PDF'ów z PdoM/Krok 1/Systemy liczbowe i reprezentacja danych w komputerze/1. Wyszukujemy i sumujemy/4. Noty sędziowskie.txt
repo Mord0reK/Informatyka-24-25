@@ -1,0 +1,25 @@
+1. **Wyświetlenie instrukcji dla użytkownika:**
+   - Użytkownik jest proszony o wprowadzenie not za skoki lub o wpisanie "spalony" dla skoków nieważnych.
+
+2. **Inicjalizacja zmiennych:**
+   - Ustaw `liczba_spalonych` na 0.
+   - Ustaw `suma` na 0.
+   - Ustaw `noty_wazne` na 0.
+
+3. **Pętla do wprowadzania not (5 razy):**
+   - W każdej iteracji:
+     - Wczytaj wartość noty.
+     - Sprawdź, czy wpisano "spalony":
+       - Jeśli tak, zwiększ `liczba_spalonych`.
+     - Jeśli wpisana wartość nie jest "spalony":
+       - Spróbuj przekonwertować wartość na float:
+         - Jeśli konwersja się uda, zaktualizuj `mini`, `maks`, `suma`, i zwiększ `noty_wazne`.
+         - Jeśli konwersja się nie uda, wypisz komunikat o błędzie i powtórz pytanie.
+
+4. **Obliczenia po zakończeniu wprowadzania not:**
+   - Jeśli są ważne noty, odejmij najmniejszą i największą notę od `suma`.
+   - Wyświetl skrajne noty oraz łączną sumę.
+   - Jeśli nie ma ważnych not, wypisz komunikat o braku ważnych skoków.
+
+5. **Wyświetlenie liczby skoków spalonych:**
+   - Wypisz `liczba_spalonych`.
