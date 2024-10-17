@@ -1,0 +1,6 @@
+	1.	Zdefiniuj funkcję trojkat, która sprawdza, czy trzy boki mogą tworzyć trójkąt.
+	2.	Pobierz od użytkownika liczbę n, która określa ilość wprowadzanych liczb.
+	•	Jeśli n jest mniejsze niż 3, wyświetl komunikat i zakończ program.
+	3.	Wczytaj n liczb od użytkownika i zapisz je na liście.
+	4.	Przeszukaj wszystkie kombinacje trzech różnych liczb z listy, aby sprawdzić, czy istnieje niezgodność (nie można utworzyć trójkąta).
+	5.	Jeśli znajdziesz niezgodność, wypisz “TAK” i zakończ, w przeciwnym razie wypisz “NIE”.
