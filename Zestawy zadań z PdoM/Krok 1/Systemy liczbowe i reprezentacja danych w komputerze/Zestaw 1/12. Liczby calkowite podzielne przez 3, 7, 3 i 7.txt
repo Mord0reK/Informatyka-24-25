@@ -1,0 +1,6 @@
+	1.	Wypisz liczby podzielne przez 3:
+	•	Sprawdź liczby od 0 do 100 i wypisz te podzielne przez 3.
+	2.	Wypisz liczby podzielne przez 7:
+	•	Sprawdź liczby od 0 do 100 i wypisz te podzielne przez 7.
+	3.	Wypisz liczby podzielne przez 3 i 7:
+	•	Sprawdź liczby od 0 do 100 i wypisz te podzielne jednocześnie przez 3 i 7.
