@@ -1,4 +1,4 @@
-binarna = str(input("Podaj liczbe binarna 8-io bitową: "))
+binarna = str(input("Podaj liczbe binarna: "))
 dziesietna = 0
 
 binarna = binarna[::-1]
