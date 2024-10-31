@@ -9,8 +9,6 @@ Kod niektorych z programów został napisany przez AI i może być ciężki do z
 
 Kartkówka (15 Minut) co 1 podkrok. <br>
 
-24.10.2024 - 1.2, 1.3
-
 Sprawdzian (1 Godzina) co 3-4 podkroki.
 
 # Schematy
