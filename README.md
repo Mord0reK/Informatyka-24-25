@@ -3,7 +3,7 @@ Tutaj znajdują się programy lub inne projekty z informatyki.
 
 Kod niektorych z programów został napisany przez AI i może być ciężki do zrozumienia. Wszystkie programy zostaly przetestowane. <br>
 
-:warning: **Autorzy tego repozytorium nie odpowiadają za próby ściągania na pracach klasowych. Repozytorium powinno być używane wyłącznie w celach dydakcyjnych. :warning:**
+:warning: **Autorzy tego repozytorium nie odpowiadają za próby ściągania na pracach klasowych. Repozytorium powinno być używane wyłącznie w celach edukacyjnych. :warning:**
 # Sprawdziany
 
 Kartkówka (15 Minut) co 1 podkrok. <br>
