@@ -13,8 +13,8 @@ Sprawdzian (1 Godzina) co 3-4 podkroki.
 # Schematy
 
 **Sprawdzian:**
-- 2 Algorytmy (Lista kroków, schemat blokowy, pseudokod)
-- 4 Różne programy w C++ / Python (Zależnie od własnego wyboru)
+- 1-2 Algorytmy (Lista kroków, schemat blokowy, pseudokod)
+- 6-8 Różne programy w C++ / Python (Zależnie od własnego wyboru)
 
 **Kartkówka:**
 - 1 Algorytm (Lista kroków, schemat blokowy, pseudokod)
