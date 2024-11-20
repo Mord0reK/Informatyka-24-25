@@ -44,7 +44,7 @@ for i in range(len(a) - 1, -1, -1):
         # Krok10: Ustal wartość zmiennej pozyczka na prawda
         pozyczka = True
         # Krok11: Do różnicy dodaj podstawę systemu
-        roznica += base
+        roznica += podstawa
 
     # Krok12: Dołącz cyfrę różnicy do wyniku
     if roznica < 10:
