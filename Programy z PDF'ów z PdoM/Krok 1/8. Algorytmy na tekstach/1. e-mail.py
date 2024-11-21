@@ -10,4 +10,4 @@ if not "." in adres[1]:
     print("Podano zły adres e-mail!")
     exit()
 
-print("Podano poprawny adres e-mail")
+print("Podano poprawny adres e-mail!")
