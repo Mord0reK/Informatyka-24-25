@@ -1,7 +1,5 @@
 adres = str(input("Podaj adres e-mail: "))
 
-dlugosc = len(adres)
-
 if not "@" in adres:
     print("Podano zły adres e-mail!")
     exit()
