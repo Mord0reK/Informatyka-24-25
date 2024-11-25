@@ -28,5 +28,3 @@ Sprawdzian (1 Godzina) co 3-4 podkroki.
 :warning: krzaczek :warning:
 
 :warning: Myrchoinka :warning:
-
-test
