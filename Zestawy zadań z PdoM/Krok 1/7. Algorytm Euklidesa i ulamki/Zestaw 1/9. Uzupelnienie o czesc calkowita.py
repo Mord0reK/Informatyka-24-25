@@ -34,4 +34,8 @@ ulamek2 = (int(input("Podaj licznik drugiego ulamka: ")), int(input("Podaj miano
 ulamek3 = (int(input("Podaj licznik trzeciego ulamka: ")), int(input("Podaj mianownik trzeciego ulamka: ")))
 
 wynik = dodaj_ulamki(ulamek1, ulamek2, ulamek3)
-print(f"Wynik: {wynik[0]}/{wynik[1]}")
+
+if wynik[0] >= wynik[1]:
+    print(f"Wynik: {wynik[0] // wynik[1]} {wynik[0] % wynik[1]}/{wynik[1]}")
+else:
+    print(f"Wynik: {wynik[0]}/{wynik[1]}")
