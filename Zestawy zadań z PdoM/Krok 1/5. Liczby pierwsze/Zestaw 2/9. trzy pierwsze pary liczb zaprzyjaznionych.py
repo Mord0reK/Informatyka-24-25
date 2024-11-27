@@ -8,7 +8,7 @@ def dzielniki(liczba):
 def trzy_pierwsze_pary_zaprzyjaznione():
     pary = []
     n = 2
-    while len(pary) < 3:
+    while len(pary) < 5:
         suma1 = dzielniki(n)
         suma2 = dzielniki(suma1)
         # Sprawdzamy, czy liczby są zaprzyjaźnione

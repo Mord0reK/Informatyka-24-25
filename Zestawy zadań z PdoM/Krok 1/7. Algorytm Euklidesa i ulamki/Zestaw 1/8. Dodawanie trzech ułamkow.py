@@ -5,7 +5,7 @@ def NWD(a,b):
 
 def nww(a, b):
     """Oblicza najmniejszą wspólną wielokrotność (NWW) dwóch liczb."""
-    return abs(a * b) // NWD(a, b)
+    return a * b // NWD(a, b)
 
 
 def dodaj_ulamki(ulamek1, ulamek2, ulamek3):
@@ -15,6 +15,8 @@ def dodaj_ulamki(ulamek1, ulamek2, ulamek3):
     licznik3, mianownik3 = ulamek3
 
     wspolny_mianownik = nww(nww(mianownik1, mianownik2), mianownik3)
+
+    # sprowadzenie ułamków do wspólnego mianownika
 
     licznik1 *= wspolny_mianownik // mianownik1
     licznik2 *= wspolny_mianownik // mianownik2

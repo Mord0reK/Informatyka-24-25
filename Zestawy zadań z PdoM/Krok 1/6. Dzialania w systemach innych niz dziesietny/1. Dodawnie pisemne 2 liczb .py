@@ -10,7 +10,10 @@ while len(b) < len(a):
 wynik = []
 przeniesienie = 0
 
-for i in range(len(a) - 1, -1, -1):
+a = a[::-1]
+b = b[::-1]
+
+for i in range(len(a)):
     suma = int(a[i]) + int(b[i]) + przeniesienie
     wynik.append(str(suma % 7))
     przeniesienie = suma // 7
@@ -22,4 +25,4 @@ if przeniesienie:
 # Składamy wynik w poprawnej kolejności
 c = ''.join(reversed(wynik))
 
-print(f"Wynik dodawania {a} i {b} w systemie siódemkowym to: {c}")
+print(f"Wynik dodawania {a[::-1]} i {b[::-1]} w systemie siódemkowym to: {c}")

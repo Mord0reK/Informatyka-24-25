@@ -15,13 +15,7 @@ def kompresuj_tekst(tekst):
             skompresowany.append(f"{tekst[i - 1]}{licznik}")
             licznik = 1
 
-    # Dodaj ostatni znak i jego licznik
-    skompresowany.append(f"{tekst[-1]}{licznik}")
-
-    skompresowany_tekst = ''.join(skompresowany)
-
-    # Jeśli wynikowy tekst jest dłuższy, zwróć oryginał
-    return skompresowany_tekst if len(skompresowany_tekst) < len(tekst) else tekst
+    return "".join(skompresowany) + f"{tekst[-1]}{licznik}"
 
 tekst = str(input("Podaj tekst do skompresowania: "))
 wynik = kompresuj_tekst(tekst)

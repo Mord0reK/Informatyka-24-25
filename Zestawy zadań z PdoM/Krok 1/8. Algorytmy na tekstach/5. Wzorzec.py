@@ -8,6 +8,4 @@ while wyraz != "***":
     wyrazy.append(wzorzec)
     wyraz = str(input("Podaj wyraz: "))
 
-polaczony = " ".join(wyrazy)
-
 print("Wzorzec powtórzył się", wyrazy.count(wzorzec), "razy.")

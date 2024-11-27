@@ -1,7 +1,5 @@
 def ile(wzorzec, tekst):
-    polaczony = " ".join(tekst)
-
-    print("Wzorzec powtórzył się", polaczony.count(wzorzec), "razy.")
+    print("Wzorzec powtórzył się", tekst.count(wzorzec), "razy.")
 
 test = str(input("Podaj Tekst: "))
 wzorzec = str(input("Podaj Wzorzec: "))

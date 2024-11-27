@@ -7,5 +7,6 @@ for i in range(0, 26):
     for j in range(0, len(tekst)):
         if tekst[j] == litery[i]:
             licznik += 1
-    print(litery[i], ":", licznik)
+    if licznik != 0:
+        print(litery[i], ":", licznik)
     licznik = 0

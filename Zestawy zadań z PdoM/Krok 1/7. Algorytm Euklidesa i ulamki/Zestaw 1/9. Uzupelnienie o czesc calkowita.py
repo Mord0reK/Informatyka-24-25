@@ -1,3 +1,7 @@
+# Uzupełnij program Suma ułamków o wyodrębnianie części całkowitej i części ułamkowej dla sumy, która jest
+# ułamkiem niewłaściwym.
+
+
 def NWD(a,b):
     while b:
         a, b = b, a % b

@@ -1,3 +1,6 @@
+# Dwie liczby uważa się za zaprzyjaźnione, jeśli sumy dzielników właściwych tych liczb są równe.
+
+
 def dzielniki(liczba):
     dzielniki = []
     for i in range(1, liczba):

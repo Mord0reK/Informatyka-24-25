@@ -8,5 +8,5 @@ szerokosc = float(input("Podaj szerokość odcinka: "))
 
 nwd = nwd(dlugosc, szerokosc)
 
-print("Rozmiar kawałka: ", dlugosc // nwd)
-print("Ilość kawałków: ", (szerokosc // nwd) * (dlugosc // nwd))
+print("Rozmiar kawałka: ", int(dlugosc // nwd))
+print("Ilość kawałków: ", int((szerokosc // nwd) * (dlugosc // nwd)))

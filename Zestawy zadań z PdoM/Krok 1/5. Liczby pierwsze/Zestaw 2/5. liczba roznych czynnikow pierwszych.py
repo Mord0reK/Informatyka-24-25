@@ -3,21 +3,27 @@ import math
 # Funkcja obliczająca liczbę różnych czynników pierwszych
 def liczba_roznych_czynnikow_pierwszych(n):
     czynniki = []
-    while n % 2 == 0:
-        czynniki.append(2)
-        n //= 2
 
-    for i in range(3, int(math.sqrt(n)) + 1, 2):
-        while n % i == 0:
-            czynniki.append(i)
-            n //= i
+    d = 2
 
-    if n > 2:
-        czynniki.append(n)
+    while n > 1:
+        if n % d == 0:
+            czynniki.append(d)
+            n //= d
+        else:
+            d += 1
 
-    return len(czynniki)
+    return czynniki
 
 liczba = int(input("Podaj liczbę całkowitą dodatnią: "))
 wynik = liczba_roznych_czynnikow_pierwszych(liczba)
 
-print(f"Liczba różnych czynników pierwszych liczby {liczba} to: {wynik}")
+unikalne = []
+
+for i in range(len(wynik)):
+    if wynik[i] not in unikalne:
+        unikalne.append(wynik[i])
+
+print(unikalne)
+
+print(f"Liczba różnych czynników pierwszych liczby {liczba} to: {len(unikalne)}")

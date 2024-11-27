@@ -1,6 +1,14 @@
 liczba = int(input("Podaj liczbę: "))
 
-for i in range(1, liczba):
-    if liczba % i == 0:
-        print(i)
-        liczba //= i
+czynniki = []
+
+d = 2
+
+while liczba > 1:
+    if liczba % d == 0:
+        czynniki.append(d)
+        liczba = liczba // d
+    else:
+        d += 1
+
+print(f"Jest {len(czynniki)} czynników pierwszych: {czynniki}")

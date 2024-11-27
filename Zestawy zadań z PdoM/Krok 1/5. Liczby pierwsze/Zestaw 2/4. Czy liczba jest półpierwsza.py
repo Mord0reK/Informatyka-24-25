@@ -1,3 +1,5 @@
+# Liczba półpierwsza to liczba będąca iloczynem dwóch liczb pierwszych
+
 import math
 
 def czy_pierwsza(n):

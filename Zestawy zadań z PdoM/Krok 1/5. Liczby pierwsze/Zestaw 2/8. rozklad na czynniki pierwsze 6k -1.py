@@ -1,5 +1,3 @@
-import math
-
 def rozloz_na_czynniki_pierwsze(n):
     czynniki = []
 

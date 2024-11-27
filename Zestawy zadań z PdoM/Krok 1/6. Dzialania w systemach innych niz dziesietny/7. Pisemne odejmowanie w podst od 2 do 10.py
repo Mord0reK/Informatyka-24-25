@@ -15,7 +15,10 @@ while len(a) < len(b):
 while len(b) < len(a):
     b = "0" + b
 
-for i in range(len(a) - 1, -1, -1):
+a = a[::-1]
+b = b[::-1]
+
+for i in range(len(a)):
     odejmna = int(a[i]) - pozyczenie
     odejmnik = int(b[i])
 

@@ -14,4 +14,4 @@ for i in range(len(tekst)):
     if tekst[i].upper() in morse:
         print(morse[tekst[i].upper()], end=" ")
     else:
-        print(" ", end=" ")
+        print(" | ", end=" ")
