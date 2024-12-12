@@ -15,3 +15,4 @@ except FileNotFoundError:
 
 with open(wyjscie, "w") as f:
     f.write(szyfrogram)
+    print("Szyfrogram został zapisany do pliku: ", wyjscie)
