@@ -7,11 +7,15 @@ szyfrogram = ""
 try:
     with open(plik, "r") as f:
         tekst = f.read()
-        for i in range(len(tekst)):
-            szyfrogram = chr(ord(tekst[i]) + klucz) + szyfrogram
+        for znak in tekst:
+            if znak == " ":
+                szyfrogram += znak
+            else:
+                szyfrogram += chr(ord(znak) + klucz)
 
 except FileNotFoundError:
     print("Nie ma takiego pliku")
 
 with open(wyjscie, "w") as f:
     f.write(szyfrogram)
+    print("Szyfrogram został zapisany do pliku: ", wyjscie)

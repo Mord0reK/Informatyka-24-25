@@ -1,33 +1,12 @@
-def szyfruj_tekst(tekst, klucz):
-    # Usunięcie spacji i przekształcenie tekstu na wielkie litery
-    tekst = tekst.replace(" ", "").upper()
+tekst = str(input("Podaj tekst do zaszyfrowania: "))
+klucz = int(input("Podaj klucz: "))
 
-    # Liczba kolumn to długość klucza
-    liczba_kolumn = len(klucz)
+zaszyfrowany = ""
 
-    # Dodanie wypełnienia, jeśli tekst nie dzieli się równo na kolumny
-    nadmiar = len(tekst) % liczba_kolumn
-    if nadmiar != 0:
-        tekst += 'X' * (liczba_kolumn - nadmiar)
+tekst = tekst.strip(" ")
 
-    # Utworzenie siatki (wiersze = długość tekstu / liczba kolumn)
-    liczba_wierszy = len(tekst) // liczba_kolumn
-    siatka = [tekst[i * liczba_kolumn:(i + 1) * liczba_kolumn] for i in range(liczba_wierszy)]
+for i in range(klucz):
+    for j in range(i, len(tekst), klucz):
+        zaszyfrowany = zaszyfrowany + tekst[j]
 
-    # Sortowanie klucza i określenie kolejności kolumn
-    klucz_kolejnosc = sorted(range(len(klucz)), key=lambda k: klucz[k])
-
-    # Odczyt tekstu według kolejności kolumn
-    szyfrogram = ""
-    for kolumna in klucz_kolejnosc:
-        for wiersz in siatka:
-            szyfrogram += wiersz[kolumna]
-
-    return szyfrogram
-
-
-# Przykład użycia
-tekst = "PRZESYLKACZEKAWWILLI"
-klucz = "40132"
-szyfrogram = szyfruj_tekst(tekst, klucz)
-print("Szyfrogram:", szyfrogram)
+print(zaszyfrowany)
