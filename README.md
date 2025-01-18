@@ -22,12 +22,4 @@ Sprawdzian (1 Godzina) co 3-4 podkroki.
 
 # Źródła
 **https://eduinf.waw.pl/inf/index.php**
-
-:warning: uwuśny jurecki :warning:
-
-:warning: krzaczek :warning:
-
-:warning: Myrchoinka :warning:
-
-:warning: OPA :warning:
-
+**<a href="https://andrzej-nowak.cba.pl">Strona A.Nowak**
