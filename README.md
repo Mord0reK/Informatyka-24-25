@@ -21,5 +21,5 @@ Sprawdzian (1 Godzina) co 3-4 podkroki.
 - 2 Różne programy w C++ / Python (Zależnie od własnego wyboru)
 
 # Źródła
-**https://eduinf.waw.pl/inf/index.php**
+**https://eduinf.waw.pl/inf/index.php** <br>
 **<a href="https://andrzej-nowak.cba.pl">Strona A.Nowak**
