@@ -3,11 +3,8 @@ Tutaj znajdują się programy lub inne projekty z informatyki.
 
 Kod niektorych z programów został napisany przez AI i może być ciężki do zrozumienia. Wszystkie programy zostaly przetestowane zgodnie ze specyfikacją. <br>
 
-:warning: **Autorzy tego repozytorium nie odpowiadają za próby ściągania na pracach klasowych. Repozytorium powinno być używane wyłącznie w celach edukacyjnych. :warning:**
+:warning: **Autorzy tego repozytorium nie odpowiadają za próby ściągania na pracach klasowych. Repozytorium powinno być używane wyłącznie w celach edukacyjnych. :warning:** 
 # Sprawdziany
-
-SO 18 grudnia <br>
-Informatyka z zestawów z rozdziału + cały krok 1 16 grudnia 
 
 Kartkówka (15 Minut) co 1 podkrok. <br>
 
