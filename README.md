@@ -10,7 +10,11 @@ Kartkówka (15 Minut) co 1 podkrok. <br>
 
 Sprawdzian (1 Godzina) co 3-4 podkroki.
 
-# Schematy
+# Schematy prac z Arkusza Kalkulacyjnego 
+
+**N/A**
+
+# Schematy prac z Programowania
 
 **Sprawdzian:**
 - 1-2 Algorytmy (Lista kroków, schemat blokowy, pseudokod)
