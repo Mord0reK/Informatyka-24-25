@@ -10,10 +10,6 @@ Kod niektorych z programów został napisany przez AI i może być ciężki do z
 **27 Marca - Bardzo Trudny** <br> Lekcja + zestaw nr 2 i 3 <br><br>
 **24 Kwietnia - Super Trudny** <br> Wszystko <br>
 
-Kartkówka (15 Minut) co 1 podkrok. <br>
-
-Sprawdzian (1 Godzina) co 3-4 podkroki.
-
 # Schematy prac z Arkusza Kalkulacyjnego 
 
 **N/A**
