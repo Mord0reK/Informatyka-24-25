@@ -6,8 +6,8 @@ Kod niektorych z programów został napisany przez AI i może być ciężki do z
 :warning: **Autorzy tego repozytorium nie odpowiadają za próby ściągania na pracach klasowych. Repozytorium powinno być używane wyłącznie w celach edukacyjnych. :warning:** 
 # Sprawdziany
 
-**6 Marca - Trudny** Lekcja + zestaw nr 2 <br>
-**27 Marca - Bardzo Trudny** Lekcja + zestaw nr 2 i 3 <br> 
+**6 Marca - Trudny**           Lekcja + zestaw nr 2 <br>
+**27 Marca - Bardzo Trudny**   Lekcja + zestaw nr 2 i 3 <br> 
 **24 Kwietnia - Super Trudny** Wszystko <br>
 
 Kartkówka (15 Minut) co 1 podkrok. <br>
