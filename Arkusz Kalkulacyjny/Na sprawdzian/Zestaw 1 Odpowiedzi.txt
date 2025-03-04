@@ -1,0 +1,257 @@
+Zadanie 2 Uczniowie
+
+1. Monika Zawada
+2. 
+16	Anna	Alewska
+38	Anna	Bereta
+42	Anna	Biernat
+46	Anna	Blazowska
+118	Anna	Chechelska
+157	Anna	Cichon
+194	Anna	Cwierz
+212	Anna	Depinska
+216	Ania	Dwojak
+293	Anna	Gaczorek
+294	Anna	Gora
+298	Anna	Gorgon
+306	Anna	Idziak
+321	Anna	Jakubiec
+337	Anna	Kania
+352	Anna	Kolodziej
+357	Anna	Kowalczyk
+362	Anna	Kucma
+368	Anna	Kurtyka
+375	Anna	Maczuga
+378	Anna	Maraj
+380	Anka	Merak
+512	Ania	Micek
+538	Anna	Mirga
+543	Anna	Misiuda
+546	Anna	Oliwa
+550	Anna	Padol
+554	Ania	Pecka
+581	Ania	Piatkowska
+618	Anna	Piaty
+671	Anna	Piwowarczyk
+674	Anka	Poplawska
+754	Anna	Radecka
+762	Anna	Radwanska
+764	Anna	Rudnicka
+767	Anna	Seretny
+779	Anna	Sermet
+833	Anna	Seweryn
+845	Anna	Siudut
+866	Anna	Sokolowska
+908	Anna	Sowa
+911	Anna	Stech
+913	Anna	Trzaska
+919	Anna	Walbiner
+932	Anna	Wolak
+946	Anna	Wrzesinska
+949	Anna	Zagorska
+
+
+3. 
+Alina	Czarnek
+Barbara	Chrusciel
+Boleslaw	Siwy
+Cecylia	Ospala
+Feliks	Molenda
+Iwona	Siemieszko
+Jan	Kot
+Jan	Nowak
+Janusz	Lapka
+Krzysztof	Zelazny
+Miroslawa	Szczesna
+Monika	Zawada
+Stefan	Bialy
+Wiktor	Zagrodzki
+Zygmunt	Marek
+
+
+
+4. 
+Michal	Bednarczyk
+Clair	Borowicz
+Marek	Brandys
+Lukasz	Brzostek
+Tomek	Cieslik
+Pawel	Czernik
+Filip	Duski
+Anna	Gora
+Pawel	Hawliczek
+Mateusz	Janicki
+Wiktor	Jastrzebski
+Agnieszka	Kabaj
+Jakub	Kaprzyk
+Joanna	Kapusta
+Milosz	Klaput
+Jacek	Kluta
+Michal	Kolarz
+Maciek	Kostrz
+Pawel	Kotlarz
+Grzegorz	Kusnierz
+Julita	Kwasniak
+Lukasz	Lasyk
+Krzysztof	Mackowiak
+Kasia	Malec
+Tomasz	Maslanka
+Ola	Matuszyk
+Tomasz	Milos
+Maria	Miskowiec
+Izabela	Mojsa
+Leszek	Moskala
+Ula	Nowak
+Jan	Nowicki
+Anna	Padol
+Joanna	Pastuszak
+Marcin	Ploszaj
+Joanna	Popielarczyk
+Jakub	Poradisz
+Piotr	Romanczyk
+Paulina	Rudnicka
+Piotr	Sadus
+Anna	Seretny
+Amelia	Skarbek
+Jaroslaw	Skrzypek
+Karolina	Smilek
+Dorota	Stelmach
+Jacek	Stypula
+Ewa	Szczepankiewicz
+Lukasz	Szturc
+Maciej	Taczuk
+Agnieszka	Tarnowka
+Michal	Tokarz
+Magda	Toporek
+Beata	Tworzewska
+Joanna	Tyliba
+Tomasz	Tyranowski
+Sebastian	Warywoda
+Agnieszka	Witkowska
+Agnieszka	Wojtowicz
+Magda	Wozniak
+Jan	Wrobel
+Magdalena	Zajac
+Pawel	Zareba
+Radek	Zielnik
+Szymon	Zimirski
+Bartlomiej	Znojek
+Barbara	Zurawel
+Wojtek	Zyla
+
+
+
+5. Boleslaw	Siwy 73
+
+6. 386    39,31%
+
+
+
+Zadanie 3 Mediana
+
+1. 14416
+
+2. 
+<1 ; 5000>	174
+<5001 ; 10000>	176
+<10001 ; 15000>	168
+<15001 ; 20000>	153
+<20001 ; 25000>	157
+<25001 ; 30000>	173
+
+3. 
+17,38%
+17,58%
+16,78%
+15,28%
+15,68%
+17,28%
+
+
+Zadanie 4 ABC
+
+1. 126
+2. 7
+3. 66836
+4. 
+AABBBBBBBB
+ACCCBBAABA
+BAAABCCABA
+BACCACCBBB
+BBBBBAABBA
+BBBBBACAAB
+BBBCACACCC
+BCBACAAAAB
+CABBBAAACA
+CABBBCACBA
+CBACBAACBA
+CCABACCAAC
+CCCABBCACC
+
+5. 
+AAAAAAA
+BAAAABA
+BABBAAAB
+AABBBBBBBB
+BBBBBAABBA
+BBBBBABBBABABBA
+
+6. 
+BAAAABA
+BCAACCBB
+BCACAABB
+BABBAAAB
+BACABBBBA
+BBAABBCAC
+BAAABCCABA
+BACCACCBBB
+BBBBBAABBA
+BBBBBACAAB
+BBBCACACCC
+BCBACAAAAB
+BBBBCACABACCA
+BAAAACCBABBACB
+BBACACBCAABCBC
+BACCBBCAACCCCC
+BBCACBAACBBABCA
+BCAABBABCCBCBAB
+BACAACCBACBCABAA
+BBBCAACACABCABAAC
+BAAAAAABCACBBCCAA
+BBBCCABCCAABCCCBCB
+BCCCBBACACBACACBCAA
+
+Zadanie 5 Ryby
+
+1. Odpowiedź 2 - dnia środa, 13 czerwiec 2001 , ryby zjadły
+3. 794
+
+
+Zadanie 6 Upusty
+1. 10-600
+2. 450
+3. 550
+4. 690
+
+Zadanie 7 Pesel
+
+1. 20
+2. 74
+3. Rok 89 - 23 osoby
+4. 
+55110906690
+62092569090
+67113048790
+70053179170
+77111084850
+77120835871
+81101148770
+89011129700
+89032143350
+89040205480
+89091482250
+91023191330
+
+
+
+
