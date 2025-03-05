@@ -1,0 +1,19 @@
+Zadanie 82 Piraci
+1. (687, 680)
+2. 3323 kroków
+3. 260 dublonów
+4. 125
+
+Zadanie 83 Wilki i zajace
+1. Wilki 43,07 Zające 118,24
+2. Zające 54 wilki 99
+4. MIN - Wilki 28,05 zające 80,71
+   MAX - Wilki 54,15 zające 123,32
+
+
+Zadanie 84 LPG (To jest źle)
+1. LPG 69 PB 51
+2. sobota, 4 styczeń 2014
+4. LPG  5 898,01 zł Pb95  6 101,32 zł 
+
+Zadanie 86 Wybory
